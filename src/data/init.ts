@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 interface ConnectionOptions{
-    mongoUrl: string;
+    mongoUrl: string ;
     dbName: string;
 }
 
