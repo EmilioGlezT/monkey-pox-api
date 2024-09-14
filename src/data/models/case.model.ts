@@ -20,12 +20,12 @@ const caseSchema = new mongoose.Schema({
     },
     age: {
         type: Number,
-        required: false,
-        default: 0
+        required: true,
+         default: 0
     },
     creationDate: {
         type: Date,
-        required: false,
+        required: true,
         
     }
 });
